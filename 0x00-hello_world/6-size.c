@@ -5,7 +5,7 @@
  * Description: 'the description of the program'
  *
  * Return: Always 0
- * */
+ **/
 
 int main(void)
 {
