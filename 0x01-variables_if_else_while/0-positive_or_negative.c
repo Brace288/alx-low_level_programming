@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Entry point
  * Decription: 'assigning positive and negative values'
  * Return: Always 0 (success)
  **/
