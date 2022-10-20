@@ -2,11 +2,12 @@
 
 void print_alphabet(void)
 {
-	char = lower_case;
+	char = letter;
 
-	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-		_putchar(lower_case);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
 
 	_putchar('\n');
 
 	return (0);
+}
