@@ -2,6 +2,7 @@
 
 /*
  * print_numbers - prints numbers 0 - 9
+ * @c: char to check
  * return: void
  */
 
