@@ -2,7 +2,7 @@
 
 /*
  * print_sign - entry point
- * Description: checks for number values 
+ * Description: checks for number values
  *
  * return: 1, 0 or -1
  *
