@@ -1,7 +1,7 @@
 #include"main.h"
 
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
