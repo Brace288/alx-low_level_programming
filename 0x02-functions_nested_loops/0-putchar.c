@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
  * Description - writes characters from the function
  * written: chisom
- * return: always 1
+ * return: always 0
  **/
 
 int main(void)
