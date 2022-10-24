@@ -1,18 +1,11 @@
-#include"main.h"
+#include "main.h"
 
-/*
- * _isalpha - Entry point
- * @c: letters to be checked
- * Description: checks for letters
- * return: 1 or 0
+/**
+ * _isalpha - checks for alphabetical letters
+ * @c: a character to be checked on
+ * Return: returns 0 or 1 depending on condition
  */
-
 int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }

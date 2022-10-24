@@ -1,16 +1,13 @@
 #include "main.h"
 
-/*
- * print_sign - entry point
- * Description: checks for number values
- *
- * return: 1, 0 or -1
- *
+/**
+ * print_sign -> prints based on condition
+ * @n: argument passed
+ * Return: 1, 0 -1
  */
-
 int print_sign(int n)
 {
-	if (n >= 1)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
