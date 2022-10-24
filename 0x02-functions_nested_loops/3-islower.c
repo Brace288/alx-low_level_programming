@@ -2,13 +2,9 @@
 
 int _islower(int c)
 {
-	int c;
-
-	for (c = 'a'; c <= 'z' c++)
-	{
-		if (c = 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 			return (1);
-		else
+	else
 			return (0);
-	}
+	
 }
