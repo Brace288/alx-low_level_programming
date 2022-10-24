@@ -1,7 +1,8 @@
 #include"main.h"
 
 /*
- * main int _isalpha - Entry point
+ * _isalpha - Entry point
+ * @c: letters to be checked
  * Description: checks for letters
  * return: 1 or 0
  */
