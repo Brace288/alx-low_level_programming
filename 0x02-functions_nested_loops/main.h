@@ -1,8 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-
-
+<<<<<<< HEAD
+int _putchar(char c)
+=======
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -15,10 +13,5 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-
-
-
-
-
-
-#endif
+void print_times_table(int n);
+>>>>>>> 1c3eb177143f4c2bf22c1830552758d74ff673c0
