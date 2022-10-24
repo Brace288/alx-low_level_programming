@@ -3,6 +3,7 @@
 
 /**
  * main - Entry point
+ * print _putchar entry point
  * Description - writes characters from the function
  * written: chisom
  * return: always 0
