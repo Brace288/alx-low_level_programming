@@ -1,30 +1,18 @@
 #include "main.h"
-/*
- * print_line - entry point
- * Description: prints '_' for the number n
- * @n: input number
- * @m: number of iteration
- * Return: void
+
+/**
+ * print_line -  Make a line with _
+ * @n: length of the line
+ * Return: none.
  */
-
-
 void print_line(int n)
 {
-
-	int m;
-
-	m = 0;
-
 	if (n > 0)
 	{
+	int i;
 
-		for (m = 0; m < n; m++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
+	for (i = 1; i <= n; ++i)
+		_putchar('_');
 	}
-
-	else
 	_putchar('\n');
 }

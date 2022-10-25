@@ -1,16 +1,14 @@
 #include "main.h"
 
-/* 
- * _isdigit - check if char is deigit from 0 -9
- * @c: char to check
- * return: 0 or 1
- *
+/**
+ * _isdigit - check digit 0 - 9
+ * @c: character
+ * Return: 1 if c is digit otherwise 0.
  */
-
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
-	else 
+	else
 		return (0);
 }

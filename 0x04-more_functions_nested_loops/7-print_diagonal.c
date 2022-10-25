@@ -1,27 +1,26 @@
 #include "main.h"
 
-/*
- * print_diagonal - Entry point
- * @c:number of iterations
- * return: diagonals and new line
+/**
+ * print_diagonal - print diagonal line
+ * @n: diagonal length
+ * Return: none.
  */
 
 void print_diagonal(int n)
 {
-	int c;
-	int d;
-
 	if (n > 0)
 	{
-		for (c = 0; c < n; c++)
+		int i, j;
+
+		for (i = 1; i <= n; ++i)
 		{
-			for (d = 0; d < c; d++)
+			for (j = 1; j < i; ++j)
 				_putchar(' ');
+
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
 	}
 	else
-	_putchar('\n');
+		_putchar('\n');
 }
-
