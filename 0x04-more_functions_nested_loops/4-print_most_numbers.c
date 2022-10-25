@@ -3,7 +3,7 @@
 /*
  * print_most_numbers - print numbers with exceptions
  * @c: char to check
- * return: void
+ * return: 0-9, excluding 2 and 4, followed by a new line
  */
 
 void print_most_numbers(void)
