@@ -1,5 +1,10 @@
 #include "main.h"
-
+/*
+ * more_numbers - print numbers 0-14 10 times
+ * @n: number of iteration
+ * @m: numbers to be printed
+ * return: numbers 0-14 x10
+ */
 
 void more_numbers(void)
 {
