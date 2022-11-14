@@ -2,6 +2,13 @@
 #include "dog.h"
 
 
+/*
+ * print_dog - prints a struct dog
+ *
+ * @d: the structure
+ * Return: 0
+ */ 
+
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 
