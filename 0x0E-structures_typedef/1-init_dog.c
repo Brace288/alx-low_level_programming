@@ -1,16 +1,15 @@
 #include <stdlib.h>
 #include "dog.h"
 
-
 /*
- * print_dog - prints a struct dog
+ * init_dog - initialize the variable type
  *
- * @d: the structure
- * Return: 0
- */ 
+ * Return: strings and float
+ *
+ */
 
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
+ void init_dog(struct dog *d, char *name, float age, char *owner)
 
 {
 	if (d != NULL)
