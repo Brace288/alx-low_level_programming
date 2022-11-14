@@ -37,3 +37,4 @@ char *_strdup(char *str)
 	ar[j] = 0;
 	
 	return (ar);
+}
