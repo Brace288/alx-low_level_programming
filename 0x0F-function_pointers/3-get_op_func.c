@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/**
+ * get_op_func - compares function with pointer
+ * @s: points a char
+ *
+ * returns: function and operator when they are equal
+ **/
 
 
 int (*get_op_func(char *s))(int, int)
